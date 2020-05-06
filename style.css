@@ -1,0 +1,136 @@
+// @import url("https://raw.githubusercontent.com/daneden/animate.css/master/animate.css");
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+
+html, body {
+	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+	text-align: center;
+}
+
+.result {
+	padding: 10px;
+	margin: 10px;
+	background: white;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
+
+.ipad-container{
+	border: 3px solid darkgrey;
+	width: 72%;
+	height: 100%;
+	border-radius: 42px;
+	margin: 0 auto 0 auto;
+	background-color: black;
+	display: flex;
+	box-shadow: 6px 14px 22px 0px lightslategrey;
+}
+
+.main-container{
+	margin: auto;
+	width: 1334px;
+	height: 749px;
+}
+
+.ipad-screen{
+	animation: rotate-center 2.6s ease-in-out both;
+	// border: 1px solid white;
+	height: 92%;
+	margin: auto;
+	width: 94%;
+	border-radius: 14px;
+	// background-color: white;
+	display: flex;
+//	background: url("https://media.idownloadblog.com/wp-content/uploads/2020/03/the-new-ipad-pro-2020-wallpaper-ispazio-idownloadblog-3-desktop.jpg");
+	// background: url("iPad-Pro-2020.jpg");
+	background-size: cover;
+}
+
+.message-container{
+	// border: 1px solid red;
+	width: 97%;
+	height: 95%;
+	// display: flex;
+	margin: auto;
+}
+
+.message-container div {
+	display: block;
+	text-align: right;
+	// border: 1px solid;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 16px;
+	padding-bottom: 22px;
+}
+
+.message-container span{
+	padding: 6px;
+	border-radius: 14px;
+	border: 1px solid;
+}
+
+.button-container{
+	width: 20%;
+	height: 20px;
+	margin-top: 4%;
+	margin-left: 19%;
+	color: gray;
+	font-size: x-large;
+	padding-bottom: 26px;
+}
+
+.button-container span{
+	display: none;
+}
+
+pre{
+//  border: 1px solid white;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  margin-top: 0px;
+  vertical-align: top;
+  color: white;
+  font-family: fantasy;
+  font-size: 13px;
+}
+
+form{
+  display: inline-block;
+  width: 49%;
+  height: 100%;
+//  border: 1px solid white;
+  vertical-align: top;
+}
+
+#yourcode{
+  height: 95%;
+  width: 100%;
+  background: transparent;
+  color: white;
+  border: none;
+  resize: none;
+  font-family: fantasy;
+  font-size: 13px;
+}
+
+#yourcode:focus{
+  outline: none;
+}
+
+form button{
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+form button:focus {
+    outline: none;
+}
