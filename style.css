@@ -98,7 +98,7 @@ pre{
   margin-top: 0px;
   vertical-align: top;
   color: white;
-  font-family: fantasy;
+//  font-family: fantasy;
   font-size: 13px;
 }
 
@@ -117,7 +117,7 @@ form{
   color: white;
   border: none;
   resize: none;
-  font-family: fantasy;
+//  font-family: fantasy;
   font-size: 13px;
 }
 
@@ -128,9 +128,10 @@ form{
 form button{
   background: transparent;
   color: white;
+  border: 1px solid white;
   border-radius: 5px;
 }
 
 form button:focus {
-    outline: none;
+  outline: none;
 }
